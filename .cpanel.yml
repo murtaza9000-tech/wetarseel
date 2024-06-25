@@ -1,0 +1,5 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/autojuea/public_html/wetarseel.ai/dev
+        - /bin/cp -R * $DEPLOYPATH
